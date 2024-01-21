@@ -1,0 +1,5 @@
+def solve_cartpole(cart_position, cart_velocity, pole_angle, pole_angular_velocity) -> int:
+    if pole_angle > 0:
+        return 1  # push cart to the right
+    else:
+        return 0  # push cart to the left

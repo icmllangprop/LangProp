@@ -1,0 +1,141 @@
+{
+    "name": "solve_cartpole",
+    "step": 8,
+    "records": {
+        "0": {
+            "main": {
+                "priority": 500.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": 500.0
+            }
+        },
+        "1": {
+            "main": {
+                "priority": 500.0,
+                "past_priority": 500.0,
+                "past_weight": 8.0,
+                "count": 2,
+                "avg_score": 500.0
+            }
+        },
+        "2": {
+            "main": {
+                "priority": 500.0,
+                "past_priority": 500.0,
+                "past_weight": 6.0,
+                "count": 2,
+                "avg_score": 500.0
+            }
+        },
+        "3": {
+            "main": {
+                "priority": 500.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": 500.0
+            }
+        },
+        "4": {
+            "main": {
+                "priority": 47.44444444444444,
+                "past_priority": 47.25,
+                "past_weight": 16.0,
+                "count": 2,
+                "avg_score": 49.0
+            }
+        },
+        "5": {
+            "main": {
+                "priority": 44.22222222222222,
+                "past_priority": 45.125,
+                "past_weight": 16.0,
+                "count": 2,
+                "avg_score": 37.0
+            }
+        },
+        "6": {
+            "main": {
+                "priority": 42.111111111111114,
+                "past_priority": 42.375,
+                "past_weight": 16.0,
+                "count": 2,
+                "avg_score": 40.0
+            }
+        },
+        "7": {
+            "main": {
+                "priority": 41.27777777777778,
+                "past_priority": 41.9375,
+                "past_weight": 16.0,
+                "count": 2,
+                "avg_score": 36.0
+            }
+        },
+        "8": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        },
+        "9": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        },
+        "10": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        },
+        "11": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        },
+        "12": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        },
+        "13": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        },
+        "14": {
+            "main": {
+                "priority": -1.0,
+                "past_priority": 0,
+                "past_weight": 0,
+                "count": 2,
+                "avg_score": -1.0
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+import random
+
+def solve_cartpole(cart_position, cart_velocity, pole_angle, pole_angular_velocity) -> int:
+    # Set the action to be 0 (move cart to the left) by default
+    action = 0
+
+    # Check if the pole is tilting to the right
+    if pole_angle > 0:
+        action = 1
+
+    # If the pole is perfectly balanced, choose a random action to encourage exploration
+    elif pole_angle == 0:
+        action = random.choice([0, 1])
+
+    return action

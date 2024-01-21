@@ -1,0 +1,16 @@
+import numpy as np
+
+def solve_cartpole(cart_position, cart_velocity, pole_angle, pole_angular_velocity) -> int:
+    # Set the maximum angle and velocity
+    max_angle = 0.418
+    max_velocity = 4.8
+    
+    # Define the policy rules based on the current state
+    if abs(pole_angle) < max_angle/10 and abs(pole_angular_velocity) < max_velocity/10:
+        action = np.random.randint(2)
+    elif pole_angle > 0:
+        action = 1
+    else:
+        action = 0
+        
+    return action

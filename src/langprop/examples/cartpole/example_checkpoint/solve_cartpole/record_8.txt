@@ -1,0 +1,25 @@
+import torch
+
+class PolicyNet(torch.nn.Module):
+    def __init__(self):
+        super(PolicyNet, self).__init__()
+        self.h1 = torch.nn.Linear(4, 64)
+        self.h2 = torch.nn.Linear(64, 32)
+        self.out = torch.nn.Linear(32, 2)
+
+    def forward(self, x):
+        x = torch.relu(self.h1(x))
+        x = torch.relu(self.h2(x))
+        x = torch.softmax(self.out(x), dim=-1)
+        return x
+
+model = PolicyNet()
+model.load_state_dict(torch.load("cartpole.pth"))
+
+def solve_cartpole(cart_position, cart_velocity, pole_angle, pole_angular_velocity) -> int:
+    with torch.no_grad():
+        state = torch.tensor([cart_position, cart_velocity, pole_angle, pole_angular_velocity], dtype=torch.float)
+        action_probs = model(state)
+        action_probs = action_probs.numpy()
+        return np.argmax(action_probs)
+
