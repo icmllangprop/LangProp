@@ -1,4 +1,4 @@
-# LangProp: A code optimization framework using Large Language Models
+# LangProp: A Code Optimization Framework using Large Language Models
 
 ![LangProp driving in CARLA](./assets/langprop_carla_run.gif)
 
