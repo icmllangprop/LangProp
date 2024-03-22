@@ -1,0 +1,7 @@
+Please complete the function below:
+
+```python
+$begin
+print(label["prompt"])
+$end
+```
