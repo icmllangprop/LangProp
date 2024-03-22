@@ -15,6 +15,8 @@ from langprop.utils import set_timeout
 
 
 def num_digits_format(max_num, min_digits=3):
+    if max_num == 0:
+        return f"{min_digits:02d}d"
     digits = max(int(math.log10(max_num)) + 1, min_digits)
     return f"{digits:02d}d"
 

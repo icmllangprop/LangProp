@@ -166,3 +166,4 @@ carla
 results
 data
 **/.tmp
+!src/langprop/examples/human_eval/data
